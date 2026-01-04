@@ -21,7 +21,7 @@ export const HeroSection = () => {
           </div>
         </div>
 
-        {/* Main Headline - มือถือ: 2 บรรทัด, Desktop: 2 บรรทัด */}
+        {/* Main Headline */}
         <h1 className="font-bold leading-tight px-4">
           <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-gradient-gold">
             10-100X
@@ -53,30 +53,32 @@ export const HeroSection = () => {
           </Button>
         </div>
 
-        {/* Stats - แก้ให้ไม่ตก 2 บรรทัด */}
-        <div className="grid grid-cols-3 gap-3 sm:gap-6 md:gap-8 pt-12 md:pt-16 max-w-3xl mx-auto px-4">
-          <div>
-            <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-gradient-gold whitespace-nowrap">
+        {/* Stats - Vertical บนมือถือ, Horizontal บน Desktop */}
+        <div className="flex flex-col sm:grid sm:grid-cols-3 gap-4 sm:gap-6 md:gap-8 pt-12 md:pt-16 max-w-3xl mx-auto px-4">
+          <div className="p-6 sm:p-4 bg-[#febe5d]/5 rounded-xl border border-[#febe5d]/20 hover:bg-[#febe5d]/10 transition-all">
+            <div className="text-4xl sm:text-3xl md:text-4xl font-bold text-gradient-gold mb-2">
               10-100X
             </div>
-            <div className="text-[10px] sm:text-xs md:text-sm text-gray-500 mt-1 md:mt-2">
-              Revenue<br className="sm:hidden" />Growth
+            <div className="text-sm md:text-base text-gray-400">
+              Revenue Growth
             </div>
           </div>
-          <div>
-            <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-gradient-gold whitespace-nowrap">
+          
+          <div className="p-6 sm:p-4 bg-[#febe5d]/5 rounded-xl border border-[#febe5d]/20 hover:bg-[#febe5d]/10 transition-all">
+            <div className="text-4xl sm:text-3xl md:text-4xl font-bold text-gradient-gold mb-2">
               1,000M+
             </div>
-            <div className="text-[10px] sm:text-xs md:text-sm text-gray-500 mt-1 md:mt-2">
-              THB in<br className="sm:hidden" />2025
+            <div className="text-sm md:text-base text-gray-400">
+              THB in 2025
             </div>
           </div>
-          <div>
-            <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-gradient-gold">
+          
+          <div className="p-6 sm:p-4 bg-[#febe5d]/5 rounded-xl border border-[#febe5d]/20 hover:bg-[#febe5d]/10 transition-all">
+            <div className="text-4xl sm:text-3xl md:text-4xl font-bold text-gradient-gold mb-2">
               3
             </div>
-            <div className="text-[10px] sm:text-xs md:text-sm text-gray-500 mt-1 md:mt-2">
-              Core<br className="sm:hidden" />Pillars
+            <div className="text-sm md:text-base text-gray-400">
+              Core Pillars
             </div>
           </div>
         </div>
