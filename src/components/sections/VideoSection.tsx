@@ -22,7 +22,7 @@ export const VideoSection = () => {
       </div>
 
       <div className="max-w-5xl mx-auto px-4">
-        {/* Video Container with Gold Border */}
+        {/* Video Container */}
         <div className="relative rounded-xl md:rounded-2xl overflow-hidden border-2 md:border-4 border-[#febe5d] shadow-[0_0_30px_rgba(254,190,93,0.4)] hover:shadow-[0_0_50px_rgba(254,190,93,0.6)] transition-all duration-300">
           <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
             <iframe
@@ -35,19 +35,31 @@ export const VideoSection = () => {
           </div>
         </div>
 
-        {/* Video Stats - ปรับให้ responsive */}
-        <div className="grid grid-cols-3 gap-2 sm:gap-4 mt-6 md:mt-8 max-w-3xl mx-auto">
-          <div className="text-center p-3 md:p-4 bg-[#febe5d]/5 rounded-lg md:rounded-xl border border-[#febe5d]/20">
-            <div className="text-xl md:text-2xl font-bold text-[#febe5d]">10-100X</div>
-            <div className="text-xs md:text-sm text-gray-500 mt-1">Growth Potential</div>
+        {/* Video Stats - แก้ให้เรียงกัน 3 ช่อง กว้างเท่า YouTube */}
+        <div className="grid grid-cols-3 gap-3 sm:gap-4 md:gap-6 mt-6 md:mt-8">
+          <div className="text-center p-4 md:p-6 bg-[#febe5d]/5 rounded-lg md:rounded-xl border border-[#febe5d]/20">
+            <div className="text-xl sm:text-2xl md:text-3xl font-bold text-[#febe5d] whitespace-nowrap">
+              10-100X
+            </div>
+            <div className="text-xs sm:text-sm md:text-base text-gray-500 mt-1 md:mt-2">
+              Growth<br className="sm:hidden" /> Potential
+            </div>
           </div>
-          <div className="text-center p-3 md:p-4 bg-[#febe5d]/5 rounded-lg md:rounded-xl border border-[#febe5d]/20">
-            <div className="text-xl md:text-2xl font-bold text-[#febe5d]">3 Steps</div>
-            <div className="text-xs md:text-sm text-gray-500 mt-1">Simple Process</div>
+          <div className="text-center p-4 md:p-6 bg-[#febe5d]/5 rounded-lg md:rounded-xl border border-[#febe5d]/20">
+            <div className="text-xl sm:text-2xl md:text-3xl font-bold text-[#febe5d]">
+              3 Steps
+            </div>
+            <div className="text-xs sm:text-sm md:text-base text-gray-500 mt-1 md:mt-2">
+              Simple<br className="sm:hidden" /> Process
+            </div>
           </div>
-          <div className="text-center p-3 md:p-4 bg-[#febe5d]/5 rounded-lg md:rounded-xl border border-[#febe5d]/20">
-            <div className="text-xl md:text-2xl font-bold text-[#febe5d]">24/7</div>
-            <div className="text-xs md:text-sm text-gray-500 mt-1">Support Ready</div>
+          <div className="text-center p-4 md:p-6 bg-[#febe5d]/5 rounded-lg md:rounded-xl border border-[#febe5d]/20">
+            <div className="text-xl sm:text-2xl md:text-3xl font-bold text-[#febe5d]">
+              24/7
+            </div>
+            <div className="text-xs sm:text-sm md:text-base text-gray-500 mt-1 md:mt-2">
+              Support<br className="sm:hidden" /> Ready
+            </div>
           </div>
         </div>
       </div>
