@@ -57,3 +57,22 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #ffd700;
 }
+
+/* Mobile Optimizations */
+@media (max-width: 640px) {
+  .section-padding {
+    @apply py-16;
+  }
+  
+  /* ปรับ scroll behavior สำหรับมือถือ */
+  html {
+    scroll-padding-top: 80px;
+  }
+}
+
+/* Prevent text from being too small on mobile */
+@media (max-width: 640px) {
+  body {
+    -webkit-text-size-adjust: 100%;
+  }
+}
