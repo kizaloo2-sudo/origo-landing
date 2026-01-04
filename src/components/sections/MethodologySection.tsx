@@ -127,22 +127,24 @@ export const MethodologySection = () => {
         </Card>
       </div>
 
-      {/* Results Banner - แก้ให้ดีบนมือถือ */}
-      <div className="mt-20 text-center">
-        <Card className="bg-gradient-to-r from-[#febe5d]/10 via-[#febe5d]/5 to-[#febe5d]/10 border-[#febe5d]/30">
-          <div className="py-6 sm:py-8 md:py-10 px-4">
-            <p className="text-gray-400 mb-3 sm:mb-4 uppercase tracking-wider text-xs sm:text-sm">
-              Projected Results
-            </p>
-            <h3 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gradient-gold mb-2 sm:mb-4 leading-tight">
-              <span className="block sm:inline">1,000</span>{' '}
-              <span className="block sm:inline">Million THB</span>
-            </h3>
-            <p className="text-base sm:text-lg md:text-xl text-gray-300">
-              Total Growth in 2025
-            </p>
-          </div>
-        </Card>
+      {/* Results Banner - ขนาดเท่ากับ Video */}
+      <div className="mt-16 md:mt-20 text-center">
+        <div className="max-w-4xl mx-auto">
+          <Card className="bg-gradient-to-r from-[#febe5d]/10 via-[#febe5d]/5 to-[#febe5d]/10 border-[#febe5d]/30">
+            <div className="py-6 sm:py-8 md:py-10 px-4">
+              <p className="text-gray-400 mb-3 sm:mb-4 uppercase tracking-wider text-xs sm:text-sm">
+                Projected Results
+              </p>
+              <h3 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gradient-gold mb-2 sm:mb-4 leading-tight">
+                <span className="block sm:inline">1,000</span>{' '}
+                <span className="block sm:inline">Million THB</span>
+              </h3>
+              <p className="text-base sm:text-lg md:text-xl text-gray-300">
+                Total Growth in 2025
+              </p>
+            </div>
+          </Card>
+        </div>
       </div>
     </SectionContainer>
   );

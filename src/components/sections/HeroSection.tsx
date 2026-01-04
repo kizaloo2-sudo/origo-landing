@@ -52,36 +52,6 @@ export const HeroSection = () => {
             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
         </div>
-
-        {/* Stats - Vertical บนมือถือ, Horizontal บน Desktop */}
-        <div className="flex flex-col sm:grid sm:grid-cols-3 gap-4 sm:gap-6 md:gap-8 pt-12 md:pt-16 max-w-3xl mx-auto px-4">
-          <div className="p-6 sm:p-4 bg-[#febe5d]/5 rounded-xl border border-[#febe5d]/20 hover:bg-[#febe5d]/10 transition-all">
-            <div className="text-4xl sm:text-3xl md:text-4xl font-bold text-gradient-gold mb-2">
-              10-100X
-            </div>
-            <div className="text-sm md:text-base text-gray-400">
-              Revenue Growth
-            </div>
-          </div>
-          
-          <div className="p-6 sm:p-4 bg-[#febe5d]/5 rounded-xl border border-[#febe5d]/20 hover:bg-[#febe5d]/10 transition-all">
-            <div className="text-4xl sm:text-3xl md:text-4xl font-bold text-gradient-gold mb-2">
-              1,000M+
-            </div>
-            <div className="text-sm md:text-base text-gray-400">
-              THB in 2025
-            </div>
-          </div>
-          
-          <div className="p-6 sm:p-4 bg-[#febe5d]/5 rounded-xl border border-[#febe5d]/20 hover:bg-[#febe5d]/10 transition-all">
-            <div className="text-4xl sm:text-3xl md:text-4xl font-bold text-gradient-gold mb-2">
-              3
-            </div>
-            <div className="text-sm md:text-base text-gray-400">
-              Core Pillars
-            </div>
-          </div>
-        </div>
       </div>
     </SectionContainer>
   );
