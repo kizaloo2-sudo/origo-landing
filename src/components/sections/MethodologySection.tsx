@@ -136,8 +136,7 @@ export const MethodologySection = () => {
                 Projected Results
               </p>
               <h3 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gradient-gold mb-2 sm:mb-4 leading-tight">
-                <span className="block sm:inline">1,000</span>{' '}
-                <span className="block sm:inline">Million THB</span>
+                <span className="block sm:inline">1,000 Million THB</span>
               </h3>
               <p className="text-base sm:text-lg md:text-xl text-gray-300">
                 Total Growth in 2025
