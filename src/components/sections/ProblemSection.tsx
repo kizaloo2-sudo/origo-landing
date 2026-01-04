@@ -5,8 +5,8 @@ import { AlertCircle, TrendingDown, Target } from 'lucide-react';
 
 export const ProblemSection = () => {
   return (
-    <SectionContainer id="problem" className="bg-gradient-to-b from-black via-gray-900/20 to-black">
-      <div className="text-center mb-16">
+    <SectionContainer id="problem" className="bg-gradient-to-b from-black via-gray-900/20 to-black pt-8 sm:pt-12 md:pt-16">
+      <div className="text-center mb-12 md:mb-16 px-4">
         <h2 className="text-5xl md:text-6xl font-bold mb-6">
           The <span className="text-gradient-gold">Real Problem</span>
         </h2>
